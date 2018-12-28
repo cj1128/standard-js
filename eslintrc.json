@@ -5,6 +5,13 @@
     "plugin:vue/recommended"
   ],
   "rules": {
+    "no-warning-comments": [
+      "error",
+      {
+        "terms": ["temp"],
+        "location": "start"
+      }
+    ],
     "prefer-promise-reject-errors": "off",
     "comma-dangle": [
       "error",

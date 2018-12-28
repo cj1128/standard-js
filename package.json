@@ -1,7 +1,7 @@
 {
   "name": "@fate-lovely/standard",
   "description": "JavaScript standard style for myself",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "bin": "./bin/cmd.js",
   "dependencies": {
     "babel-eslint": "^7.2.2",
@@ -9,6 +9,7 @@
     "eslint-config-standard": "10.2.0",
     "eslint-config-standard-jsx": "4.0.1",
     "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-no-warning-comments": "0.0.1",
     "eslint-plugin-node": "~4.2.2",
     "eslint-plugin-promise": "~3.5.0",
     "eslint-plugin-react": "~6.10.0",
