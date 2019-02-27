@@ -2,7 +2,7 @@
   "name": "@fate-lovely/standard",
   "description": "JavaScript standard style for myself",
   "license": "MIT",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "bin": "./bin/cmd.js",
   "scripts": {
     "show-rules": "eslint-index eslintrc.json",
