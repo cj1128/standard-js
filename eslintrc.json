@@ -5,6 +5,7 @@
     "plugin:vue/recommended"
   ],
   "rules": {
+    "no-useless-return": "off",
     "no-warning-comments": [
       "error",
       {
