@@ -2,9 +2,14 @@
   "extends": [
     "standard",
     "standard-jsx",
-    "plugin:vue/recommended"
+    "plugin:vue/recommended",
+    "plugin:vue-types/strongly-recommended"
   ],
+  "settings": {
+    "vue-types/namespace": ["VueTypes", "VT"]
+  },
   "rules": {
+    "vue/require-default-prop": "off",
     "no-useless-return": "off",
     "no-warning-comments": [
       "error",

@@ -2,7 +2,7 @@
   "name": "@fate-lovely/standard",
   "description": "JavaScript standard style for myself",
   "license": "MIT",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "bin": "./bin/cmd.js",
   "scripts": {
     "show-rules": "eslint-index eslintrc.json",
@@ -22,6 +22,7 @@
     "eslint-plugin-react": "7.12.4",
     "eslint-plugin-standard": "4.0.0",
     "eslint-plugin-vue": "5.2.2",
+    "eslint-plugin-vue-types": "1.0.0",
     "standard-engine": "10.0.0"
   },
   "devDependencies": {
