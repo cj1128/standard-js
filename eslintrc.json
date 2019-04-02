@@ -9,6 +9,7 @@
     "vue-types/namespace": ["VueTypes", "VT"]
   },
   "rules": {
+  "template-curly-spacing": ["error", "always"],
     "vue/require-default-prop": "off",
     "no-useless-return": "off",
     "no-warning-comments": [
