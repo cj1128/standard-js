@@ -7,16 +7,29 @@ module.exports = {
   eslint: eslint,
   eslintConfig: {
     configFile: path.join(__dirname, "eslintrc.json"),
-    parserOptions: {
-      "parser": "babel-eslint",
-      // https://github.com/babel/babel-eslint/issues/662
-      // TODO: remove this when babel-eslint updated to 11
-      "ecmaFeatures": {
-        legacyDecorators: true
-      },
-    },
   },
+  tagline: "CJ's JavaScript Standard Style",
   homepage: pkg.homepage,
-  tagline: "Use JavaScript Standard Style",
   version: pkg.version,
+  parseOpts: (opts, packageOpts, rootDir) => {
+    if(packageOpts.disabled) {
+      opts.eslintConfig.rules = {}
+      packageOpts.disabled.forEach(item => {
+        opts.eslintConfig.rules[item] = "off"
+      })
+    }
+
+    // opts.eslintConfig.baseConfig = {}
+    // opts.eslintConfig.baseConfig.plugins = ["vue"]
+    // opts.eslintConfig.baseConfig.overrides = [
+    //   {
+    //     files: ["*.wxmp"],
+    //     processor: "vue/.vue"
+    //   }
+    // ]
+
+    // console.log(opts)
+
+    return opts
+  },
 }
