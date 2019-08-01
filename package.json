@@ -3,7 +3,7 @@
   "homepage": "https://github.com/cj1128/standard-js",
   "description": "JavaScript Standard Style For Myself",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "./bin/cmd.js",
   "scripts": {
     "show-rules": "eslint-index eslintrc.json",
@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "babel-eslint": "10.0.2",
-    "eslint": "6.1.0",
-    "eslint-config-standard": "13.0.1",
-    "eslint-config-standard-jsx": "7.0.0",
+    "eslint": "5.16.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-config-standard-jsx": "6.0.2",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-no-warning-comments": "0.0.1",
     "eslint-plugin-node": "9.1.0",
