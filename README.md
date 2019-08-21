@@ -22,6 +22,25 @@ yarn add -D husky @cjting/standard snazzy
 }
 ```
 
+## 使用 babel-eslint
+
+首先，安装 `babel-eslint`，`yarn add babel-eslint`。
+
+然后在 `package.json` 添加如下配置。
+
+```json
+{
+  "standard": {
+    "parserOptions": {
+      "parser": "babel-eslint",
+      "sourceType": "module"
+    }
+  }
+}
+```
+
+正常情况下，我们应该修改 `parser`属性，但是因为 eslint-plugin-vue 插件的 [限制](https://vuejs.github.io/eslint-plugin-vue/user-guide/#usage)，我们需要使用 `parserOptions` 选项。
+
 ## 规则
 
 在 `standard` 的基础上，做了如下改动和修改。

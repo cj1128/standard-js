@@ -19,16 +19,9 @@ module.exports = {
       })
     }
 
-    // opts.eslintConfig.baseConfig = {}
-    // opts.eslintConfig.baseConfig.plugins = ["vue"]
-    // opts.eslintConfig.baseConfig.overrides = [
-    //   {
-    //     files: ["*.wxmp"],
-    //     processor: "vue/.vue"
-    //   }
-    // ]
-
-    // console.log(opts)
+    if(packageOpts.parserOptions) {
+      opts.eslintConfig.parserOptions = packageOpts.parserOptions
+    }
 
     return opts
   },
