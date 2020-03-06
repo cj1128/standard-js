@@ -9,112 +9,115 @@
     "vue-types/namespace": ["VueTypes", "VT"]
   },
   "rules": {
+    "object-curly-spacing": ["error", "never"],
     "template-curly-spacing": ["error", "always"],
-      "vue/require-default-prop": "off",
-      "no-useless-return": "off",
-      "no-warning-comments": [
-        "error",
-        {
-          "terms": ["temp"],
-          "location": "start"
-        }
-      ],
-      "prefer-promise-reject-errors": "off",
-      "comma-dangle": [
-        "error",
-        {
-          "arrays": "always-multiline",
-          "objects": "always-multiline",
-          "imports": "always-multiline",
-          "exports": "always-multiline",
-          "functions": "always-multiline"
-        }
-      ],
-      "quotes": [
-        "error",
-        "double",
-        {
-          "avoidEscape": true,
-          "allowTemplateLiterals": true
-        }
-      ],
-      "space-before-function-paren": [
-        "error",
-        {
-          "anonymous": "never",
-          "named": "never",
-          "asyncArrow": "always"
-        }
-      ],
-      "keyword-spacing": [
-        "error",
-        {
-          "before": true,
-          "after": true,
-          "overrides": {
-            "if": {
-              "after": false
-            },
-            "while": {
-              "after": false
-            },
-            "switch": {
-              "after": false
-            },
-            "for": {
-              "after": false
-            },
-            "catch": {
-              "after": false
-            }
-          }
-        }
-      ],
-      "operator-linebreak": [
-        "error",
-        "after",
-        {
-          "overrides": {
-            "?": "ignore",
-            ":": "ignore"
-          }
-        }
-      ],
-      "react/jsx-curly-spacing": [
-        "error",
-        "always"
-      ],
-      "jsx-quotes": [
-        "error",
-        "prefer-double"
-      ],
-      "react/jsx-boolean-value": [
-        "error",
-        "never"
-      ],
-      "vue/comment-directive": "off",
-      "vue/order-in-components": ["error", {
-        "order": [
-          "el",
-          "name",
-          "parent",
-          "functional",
-          ["delimiters", "comments"],
-          "extends",
-          "mixins",
-          "inheritAttrs",
-          "model",
-          ["props", "propsData"],
-          "data",
-          "computed",
-          "LIFECYCLE_HOOKS",
-          "watch",
-          "methods",
-          ["components", "directives", "filters"],
-          ["template", "render"],
-          "renderError"
-        ]
+    "vue/require-default-prop": "off",
+    "no-useless-return": "off",
+    "no-warning-comments": [
+      "error",
+      {
+        "terms": ["temp"],
+        "location": "start"
       }
+    ],
+    "prefer-promise-reject-errors": "off",
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ],
+    "quotes": [
+      "error",
+      "double",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "keyword-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true,
+        "overrides": {
+          "if": {
+            "after": false
+          },
+          "while": {
+            "after": false
+          },
+          "switch": {
+            "after": false
+          },
+          "for": {
+            "after": false
+          },
+          "catch": {
+            "after": false
+          }
+        }
+      }
+    ],
+    "operator-linebreak": [
+      "error",
+      "after",
+      {
+        "overrides": {
+          "?": "ignore",
+          ":": "ignore"
+        }
+      }
+    ],
+    "react/jsx-curly-spacing": [
+      "error",
+      {
+        "when": "never"
+      }
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
+    "react/jsx-boolean-value": [
+      "error",
+      "never"
+    ],
+    "vue/comment-directive": "off",
+    "vue/order-in-components": ["error", {
+      "order": [
+        "el",
+        "name",
+        "parent",
+        "functional",
+        ["delimiters", "comments"],
+        "extends",
+        "mixins",
+        "inheritAttrs",
+        "model",
+        ["props", "propsData"],
+        "data",
+        "computed",
+        "LIFECYCLE_HOOKS",
+        "watch",
+        "methods",
+        ["components", "directives", "filters"],
+        ["template", "render"],
+        "renderError"
+      ]
+    }
     ]
   }
 }

@@ -3,7 +3,7 @@
   "homepage": "https://github.com/cj1128/standard-js",
   "description": "JavaScript Standard Style For Myself",
   "license": "MIT",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "bin": "./bin/cmd.js",
   "scripts": {
     "show-rules": "eslint-index eslintrc.json",
@@ -12,27 +12,27 @@
     "pub": "npm publish --access=public"
   },
   "dependencies": {
-    "babel-eslint": "10.0.2",
-    "eslint": "5.16.0",
-    "eslint-config-standard": "12.0.0",
-    "eslint-config-standard-jsx": "6.0.2",
-    "eslint-plugin-import": "2.18.2",
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-config-standard-jsx": "8.1.0",
+    "eslint-plugin-import": "2.20.1",
     "eslint-plugin-no-warning-comments": "0.0.1",
-    "eslint-plugin-node": "9.1.0",
+    "eslint-plugin-node": "11.0.0",
     "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-react": "7.14.3",
-    "eslint-plugin-standard": "4.0.0",
-    "eslint-plugin-vue": "5.2.3",
+    "eslint-plugin-react": "7.18.3",
+    "eslint-plugin-standard": "4.0.1",
+    "eslint-plugin-vue": "6.2.1",
     "eslint-plugin-vue-types": "1.0.1",
-    "standard-engine": "11.0.1"
+    "standard-engine": "12.0.0"
   },
   "devDependencies": {
-    "cross-spawn": "6.0.5",
+    "cross-spawn": "7.0.1",
     "eslint-index": "1.5.0",
     "minimist": "1.2.0",
-    "mkdirp": "0.5.1",
+    "mkdirp": "1.0.3",
     "run-parallel-limit": "1.0.5",
-    "standard-packages": "3.5.4"
+    "standard-packages": "3.8.2"
   },
   "engines": {
     "node": ">=4"
