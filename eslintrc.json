@@ -10,7 +10,7 @@
   },
   "rules": {
     "object-curly-spacing": ["error", "never"],
-    "template-curly-spacing": ["error", "always"],
+    "template-curly-spacing": ["error", "never"],
     "vue/require-default-prop": "off",
     "no-useless-return": "off",
     "no-warning-comments": [

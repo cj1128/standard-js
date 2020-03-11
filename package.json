@@ -1,9 +1,8 @@
 {
   "name": "@cjting/standard",
   "homepage": "https://github.com/cj1128/standard-js",
-  "description": "JavaScript Standard Style For Myself",
   "license": "MIT",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "bin": "./bin/cmd.js",
   "scripts": {
     "show-rules": "eslint-index eslintrc.json",

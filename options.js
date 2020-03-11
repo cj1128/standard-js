@@ -8,7 +8,7 @@ module.exports = {
   eslintConfig: {
     configFile: path.join(__dirname, "eslintrc.json"),
   },
-  tagline: "CJ's JavaScript Standard Style",
+  tagline: `CJ's JavaScript Standard Style (${pkg.version})`,
   homepage: pkg.homepage,
   version: pkg.version,
   parseOpts: (opts, packageOpts, rootDir) => {
