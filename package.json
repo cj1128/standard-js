@@ -28,7 +28,7 @@
   "devDependencies": {
     "cross-spawn": "7.0.1",
     "eslint-index": "1.5.0",
-    "minimist": "1.2.0",
+    "minimist": "1.2.3",
     "mkdirp": "1.0.3",
     "run-parallel-limit": "1.0.5",
     "standard-packages": "3.8.2"
